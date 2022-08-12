@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/style.css">	
+
+
+		<title>Art Galary</title>
+
+        <!-- Link to bootstrap here -->
+
+	</head>
+
+
+    <!-- Style the below elements using bootstrap
+        remember to make your site responsive at different viewport sizes
+        You must add:
+            a navbar
+            cards (one for each section)
+            an offcanvas component 
+        
+        If you are curious about how these work, remember to refer to the bootstrap documentation! -->
+	<body>
+
+		<header>
+			
+			<nav class=" container-fluid navbar navbar-expand-md bg-dark navbar-dark">
+				<div id="logo">
+					<h1>Beauty of Life <br>Art Galary</h1>
+				</div>
+				<div id="link">
+				<a href="#old-school-car" alt="">Old School Car</a>
+				<a href="#rare-flowers" alt="">Rare Flowers</a>
+				<a href="#exotic-birds" alt="">Exotic Birds</a>
+				</div>
+			</nav>
+		</header>
+
+
+		<section id="exotic-carousel">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<h1 class="intro">Rare Flowers</h1>
+						<img src="https://cdn.pixabay.com/photo/2019/04/07/16/14/kerala-4110059_1280.jpg" class="d-block w-100" alt="Rare Flowers">
+					</div>
+					<div class="carousel-item">
+						<h1 class="intro">Old School Cars</h1>
+						<img src="https://cdn.pixabay.com/photo/2018/04/07/16/30/auto-3298890_1280.jpg" class="d-block w-100" alt="Old School Cars">
+					</div>
+					<div class="carousel-item">
+						<h1 class="intro">Exotic Birds</h1>
+						<img src="https://cdn.pixabay.com/photo/2018/07/12/15/10/animal-world-3533676_1280.jpg" class="d-block w-100" alt="Exoticc Birds">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+
+		<div class="spacer"></div>
+
+			<main>
+				
+				<divclass="spacer"></div>
+					
+				
+				<section  id="old-school-car" >
+					<h2>Old School Car</h2>
+				   <div class="demi-container">	
+						<img class="card shadow-sm" src="https://images.unsplash.com/photo-1532751203793-812308a10d8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2xkJTIwY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Black and white vintage car">
+						<img class="card shadow-sm" src="https://images.unsplash.com/photo-1581281664725-7d97d24d48b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b2xkJTIwY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+						<img class="card shadow-sm" class="img-landscape" src="https://images.unsplash.com/photo-1563831816793-3d32d7cc07d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2xkJTIwY2Fyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="landsape car">
+						<img class="card shadow-sm" class="img-landscape" src="https://images.unsplash.com/photo-1593544340816-93d84a106415?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1195&q=80">
+					</div>
+				</section>
+
+					<div id="rare-flowers" class="spacer"></div>
+
+				<section>
+					<h2>Rare Flowers</h2>
+					<div class="demi-container overflow-hidden">
+						<img class="card" src="https://images.unsplash.com/photo-1528857901852-ba9ffa60559c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZXhvdGljJTIwZmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+                		<img class="card" src="https://images.unsplash.com/photo-1508128655192-0270cf7f0a11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXhvdGljJTIwZmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+                		<img class="card" src="https://images.unsplash.com/photo-1527017895487-3ac53c0f03fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhvdGljJTIwZmxvd2Vyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+						<img class="card"  src="https://cdn.pixabay.com/photo/2018/08/28/20/59/flower-3638519_1280.jpgx">
+					</div>
+				</section>
+
+				<div id="exotic-birds" class="spacer"></div>
+
+				<section>
+					<h2>Exotic Birds</h2>
+					<div class="demi-container overflow-hidden ">
+						<img class="card" src="https://images.unsplash.com/photo-1534765372525-6c48a6524046?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZXhvdGljJTIwYmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                		<img class="card"  src="https://images.unsplash.com/photo-1534631717226-c4f264e50e1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZXhvdGljJTIwYmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                		<img class="card" src="https://images.unsplash.com/photo-1526401415661-5a755bef0246?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXhvdGljJTIwYmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+                		<img class="card" src="https://images.unsplash.com/photo-1527919964707-ad5dd075c527?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4b3RpYyUyMGJpcmRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+					</div>
+			</section>
+					<div class="spacer"></div>
+
+					<!----------------------Table Section-------------------------->
+					<section id="table">
+							<h3>Admission Prices</h3>
+						<div class="demi-container">
+						
+							<table class="table container">
+								
+    							<thead>
+    							<tr>
+      							<th></th>
+      							<th></th>
+      							<th>Beauty Of Life (north side)</th>
+      							<th>Beauty Of Life (downtown)</th>
+      							<th>Beauty Of Life (south side)</th>
+    							</tr>
+    						</thead>
+    						<tbody>
+    							<tr>
+    								<td></td>
+      								<td>Admission</td>
+      								<td class="text-center">$25</td>
+      								<td class="text-center">$50</td>
+      								<td class="text-center">$25</td>
+    							</tr>
+    						</tbody>
+  						</table>
+						</div>
+				</section>
+						<div class="spacer"></div>
+					<!----------------------Form Section-------------------------->
+					<footer>
+  					<form method="post" action="" class="container">
+						<div class="form-group">
+  							<h3>Subscribe For More Information:</h3>
+							<hr>
+							<br>
+  							<label for="name">Name:</label>&nbsp;
+  							<input type="text" id="name" name="name">&nbsp;&nbsp;
+  							<label for="emailadd">Email Address:</label>&nbsp;
+  							<input type="text" id="emailadd" name="emailadd">&nbsp;
+  							<input type="submit" id="submit" name="submit" class="btn btn-primary"><br>
+					</form>
+					</footer>
+
+
+
+			</main>		
+
+			<footer>
+
+			</footer>
+
+
+			<!-----------Javascript---------------->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+				crossorigin="anonymous"></script>
+	</body>
+
+</html>

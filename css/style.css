@@ -1,0 +1,104 @@
+@import url("gallery.css");
+
+html{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ .carousel-item img{
+    height: 10% !important;
+    overflow: hidden !important;
+    object-fit: cover !important;
+}
+#link{
+    float:right;
+}
+.spacer{
+    height: 5vh;
+}
+
+.demi-container{
+    width:65%;
+    margin:auto;
+    display:flex;
+    -ms-flex-wrap: wrap;
+        /* IE10 */
+     flex-wrap: wrap;
+}
+.intro{
+    position: absolute;
+        width: 35%;
+        left:25%;
+        top: 50%;
+        background-color: #090909;
+        opacity: 0.75;
+        color: #ffffff;
+        padding: 15px;
+        border: 3px solid rgb(247, 250, 247);
+        text-align: center;
+        z-index: 99;
+        color: orangered;
+        font-size: 1.25rem;
+        text-align: center;
+        font-size: 5rem;
+}
+
+header h1{
+    color: orangered;
+    font-size: 1.25rem;
+    text-align: center;
+   
+ }  
+a{
+    float:right;
+    text-align: middle;
+    margin: 35px;
+    text-decoration: none;
+}
+h2, h3{
+    text-align: center;
+}
+main img{
+    border: 1px solid orangered;
+    width: 50%;
+    height:auto;
+    opacity: 0.5;
+}
+main img:hover{
+
+        opacity: 1;
+}
+hr{
+    width: 50%;
+        margin: auto;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+tr:nth-child(odd) {
+    background-color: #9e9999;
+}
+
+footer{
+    background-color:#090909;
+    color:white;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+@media screen and (max-width: 800px) {
+    img {
+
+        max-width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   img {
+       
+        max-width: 100%;
+    }
+}
